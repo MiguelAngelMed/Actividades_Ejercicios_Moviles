@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DarkLogin</string>
+    <string name="email">Correo electrónico</string>
+    <string name="clave">Clave</string>
+    <string name="recuerdame">Recuerdame</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="textoBienvenido">Bienvenido</string>
+    <string name="Llamar" >Llamar</string>>
+    <string name="elige">Elige</string>
+    <string name="EnviarCorreo">Enviar Correo</string>
+</resources>

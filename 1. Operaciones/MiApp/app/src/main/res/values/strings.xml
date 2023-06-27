@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MiApp</string>
+    <string name="usuario">Usuario:</string>
+    <string name="clave">Clave:</string>
+    <string name="usuarioHint">Introduce tu usuario</string>
+    <string name="claveHint">Introduce tu password:</string>
+    <string name="recuerdame">Recuerdame</string>
+    <string name="entrar">Entrar</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Operaciones">Operaciones</string>
+    <string name="DesviacionEstandar">Desviación estandar</string>
+    <string name="calcular">Calcular</string>
+    <string name="numero">Número</string>
+    <string name="numeroHint">Pon un número aquí</string>
+    <string name="resultado">Aquí aparece el resultado</string>
+    <string name="koala">Este es un koala</string>
+
+
+</resources>

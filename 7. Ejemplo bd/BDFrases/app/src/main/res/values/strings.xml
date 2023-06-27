@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BDFrases</string>
+    <string name="frase">Frase: </string>
+    <string name="autor">Autor: </string>
+    <string name="insertFrase">Insterte aquí la frase</string>
+    <string name="insertAutor">Inserte aquí el autor</string>
+    <string name="guardar">Guardar</string>
+    <string name="listado">Listado</string>
+    <string name="lista">Lista de frases</string>
+    <string name="idI">ID: </string>
+    <string name="textoDefault">a</string>
+    <string name="fraseI">Frase: </string>
+    <string name="infoFrase">Información de la frase</string>
+    <string name="autorI">Autor: </string>
+</resources>

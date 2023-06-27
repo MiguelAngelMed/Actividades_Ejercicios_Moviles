@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblFrase"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="casual"
+        android:text="@string/frase"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/lblAutor"
+        app:layout_constraintStart_toStartOf="@+id/txtFrase"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtFrase"
+        android:layout_width="242dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bck_cuadro_texto"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/insertFrase"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFrase" />
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="95dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="casual"
+        android:text="@string/autor"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAutor"
+        app:layout_constraintStart_toStartOf="@+id/txtFrase"
+        app:layout_constraintTop_toTopOf="@+id/txtFrase" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/bck_cuadro_texto"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/insertAutor"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardar"
+        app:layout_constraintStart_toStartOf="@+id/lblAutor" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/bck_cuadro_texto"
+        android:text="@string/guardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnListado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bck_cuadro_texto"
+        android:text="@string/listado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toEndOf="@+id/btnGuardar"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
